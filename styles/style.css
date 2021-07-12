@@ -1,47 +1,45 @@
 
-header{
-
-display:flex;
-justify-content: space-between;
-
-
+header, #article-head {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-#header-left{
-
+#header-left {
     display: flex;
     flex-direction: row;
 }
 
-#fork-knife-logo{
-
-height:48px;
-width: 48px;
-
+#fork-knife-logo {
+    height:48px;
+    width: 48px;
 }
 
-#header-text{
-
-display: flex;
-flex-direction: column;
-
-}
-
-ul{
-
+#header-text {
     display: flex;
-    
+    flex-direction: column;
 }
 
+ul {
+    display: flex;
+}
 
-[alt="rss icon"]{
-
+[alt="rss icon"] {
     margin-left: 7px;
 }
 
-
-ul *{
-
+ul * {
     margin-left: 1px;
+}
 
+.dial-line {
+    background-image: url("../assets/hr-img.png");
+    background-repeat: repeat;
+    height: 10px;
+    margin-top: 10px;
+}
+
+#main-top-left {
+    display: flex;
+    flex-direction: column;
 }
