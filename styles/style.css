@@ -43,3 +43,26 @@ ul * {
     display: flex;
     flex-direction: column;
 }
+
+p {
+    margin-top: 10px;
+    text-indent: 2em;
+}
+
+#ingredients {
+    background-image: url('../assets/list-bg.png');
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ingredient-list {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.ingredient-list * {
+    margin-bottom: 3px;
+}
+
