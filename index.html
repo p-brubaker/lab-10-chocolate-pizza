@@ -9,19 +9,26 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Norican&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <header>
         <div id="header-left">
-            <img src="./assets/logo.png" alt="A fork and knife" id="fork-knife-logo1">
+            <img src="./assets/logo.png" alt="A fork and knife" id="fork-knife-logo">
             <div id="header-text">
-                <span>Delicious</span>
-                <span>The best food blog on the web</span>
+                <span id="header-delicious">Delicious</span>
+                <span id="header-sub-text" class="light-mono">The best food blog on the web</span>
             </div>
         </div>
-        <div>
+        <div id="header-right">
             <ul>
                 <li><img src="./assets/fb-icon.png" alt="facebook icon"></li>
                 <li><img src="./assets/twit-icon.png" alt="twitter icon"></li>
@@ -44,12 +51,12 @@
         <article>
             <div id="article-head">
                 <div id="main-top-left">
-                    <span>Chocolate Pizza</span>
-                    <span>Posted on 15 Dec 2013 / Desserts</span>
+                    <h1>Chocolate Pizza</h1>
+                    <span class="light-mono">Posted on 15 Dec 2013 / Desserts</span>
                 </div>
                 <div id="main-top-right">
-                    <img src="./assets/print-icon.png" alt="printer-icon">
-                    <span>Print</span>
+                    <img src="./assets/print-icon.png" alt="printer icon" id="printer-icon">
+                    <span class="light-mono">Print</span>
                 </div>
             </div>
             <img src="./assets/choco-pizza.png" alt="chocolate pizza">
@@ -87,10 +94,10 @@
         <div id="author-bio">
             <img src="./assets/van-pic.png" alt="vanessa selfie">
             <div id="span-container">
-                <span>Vanessa Stevenson</span>
-                <span>Food enthusiast, photodgraphy fan. Add a pinch of raw foodism and that's pretty much who I am.</span>
+                <h3>Vanessa Stevenson</h3>
+                <span class="body-text">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</span>
             </div>
-            <button id="the-only-button">SHARE RECIPE</button>
+            <button id="share-recipe">SHARE RECIPE</button>
         </div>
     </main>
 

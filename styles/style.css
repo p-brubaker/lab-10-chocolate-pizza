@@ -2,6 +2,20 @@ header, #article-head {
     display:flex;
     justify-content: space-between;
     flex-direction: row;
+    margin-bottom: 30px;
+}
+
+#article-head {
+    margin-top: 45px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header {
+    margin-top: 30px;
 }
 
 #header-left {
@@ -9,9 +23,14 @@ header, #article-head {
     flex-direction: row;
 }
 
+#header-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 #fork-knife-logo {
-    height:48px;
-    width: 48px;
+    align-self: flex-end;
 }
 
 #header-text {
@@ -43,27 +62,38 @@ ul * {
     flex-direction: column;
 }
 
+#main-top-right {
+    display: flex;
+    align-items: flex-end;
+}
+
 p {
     margin-top: 10px;
     text-indent: 2em;
+    margin-bottom: 25px;
 }
 body {
-    width:800px;
+    width: 80%;
+    max-width:800px;
     margin:auto;
 }
 
 
 #ingredients {
+    font-family: 'Architects Daughter', cursive;
     background-image: url('../assets/list-bg.png');
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .ingredient-list {
     display: flex;
     flex-direction: column;
     margin: 60px;
+    max-width: 250px;
+    color: rgb(53, 40, 24)
 }
 
 .ingredient-list * {
@@ -74,6 +104,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 #span-container {
@@ -114,4 +145,55 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#header-delicious {
+    font-family: 'Norican';
+    font-size: 2rem;
+    margin-bottom: -10px;
+}
+
+#header-text {
+    margin-left: 5px;
+}
+
+.light-mono {
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    color: grey;
+}
+
+#printer-icon {
+    margin-bottom: 2px;
+}
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.body-text {
+    color: rgb(73, 72, 72);
+}
+
+#span-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#share-recipe {
+    height: 40px;
+    align-self: flex-end;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    opacity: 50%;
+}
+
+input:checked + label {
+    text-decoration: line-through;
 }
