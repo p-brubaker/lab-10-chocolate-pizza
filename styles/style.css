@@ -1,4 +1,3 @@
-
 header, #article-head {
     display:flex;
     justify-content: space-between;
@@ -48,6 +47,13 @@ p {
     margin-top: 10px;
     text-indent: 2em;
 }
+body{
+
+width:800px;
+margin:auto;
+
+}
+
 
 #ingredients {
     background-image: url('../assets/list-bg.png');
@@ -64,5 +70,36 @@ p {
 
 .ingredient-list * {
     margin-bottom: 3px;
+}
+
+#author-bio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#span-container{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    max-width: 100%;
+}
+
+hr{
+    position: relative;
+    z-index: 1;
+    top:70%
+}
+#fork-knife-logo-footer{
+    position: relative;
+    z-index: 2;
+    border: solid 10px white;
+    left: 50%;
+}
+
+#fork-knife-line{
+    height: 60px;
 }
 
